@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Todo Application</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Todo Application</h1>
+        <div class="form">
+            <input id="taskInput" type="text" placeholder="Enter a task...">
+            <button id="addButton"><i class="fas fa-plus"></i></button>
+        </div>
+        <ul id="taskList"></ul>
+        <div class="filter-container">
+            <button class="filter-btn" id="allBtn">All</button>
+            <button class="filter-btn" id="activeBtn">Active</button>
+            <button class="filter-btn" id="completedBtn">Completed</button>
+            <button id="clearBtn">Clear Completed</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
